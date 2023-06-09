@@ -1,0 +1,72 @@
+body {
+  background-color: #ffffff00;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+
+.my-masonry-grid-column {
+  padding-left: 30px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+button {
+  border-radius: 0;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+.image-navigation{
+  margin: 2%;
+}
+
+.previous-image , .next-image{
+  margin: 2%;
+}
+.img-fluid{
+  width: 100%;
+  height: 100%;
+}
+.card-body{
+  color: #000000;
+  /* background-color:#000a19; */
+  font-weight: bold;
+}
+.card{
+  box-shadow: #000a19;
+  border-radius: 20px;
+}
